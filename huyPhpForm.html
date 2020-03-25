@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>huy php</title>
+    <link rel="stylesheet" type="text/css" href="estiloPrueba.css"/>
+</head>
+<body>
+    <form class="todo" method="post" action="huyPhpTxt.php">
+        <p>Evento 1: 
+        <input name="uno" type="text"/>
+        </p>
+        <p>Evento 2: 
+        <input name="dos" type="text"/>
+        </p>
+        <p>
+        <input type="submit" value="a ver el texto"/>
+        </p>
+    </form>
+    <hr>
+    <form class="todo" enctype="multipart/form-data" action="huyPhpPic.php" method="post">
+        <p>buscar  archivo
+        <input type="file" name="archivo"/>
+        </p>
+        <p>
+        <input type="submit" name="subir" value="a ver la foto">
+        </p>
+    </form>
+</body>
+</html>
